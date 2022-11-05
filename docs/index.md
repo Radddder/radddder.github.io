@@ -1,6 +1,7 @@
 # 图吧工具箱简介
 
-DIY爱好者的必备工具合
+DIY爱好者的必备工具合。  
+软件作者：秃顶的小P孩
 
 ## 1、版本信息
 软件版本：2022.11正式版R2   
@@ -40,7 +41,163 @@ DIY爱好者的必备工具合
 注：如果遇到问题，请仔细阅读例程说明文档，如果仍有疑问，建议发送邮件到86738619@qq.com邮箱，或直接加QQ说明问题(可能会看不到消息)。  
 易语言例程 · C#例程 · C++例程 · 目前作者正在准备Python例程 。[点此载链接](https://pan.lanzoux.com/b07rlv7gf) (提取码f609)。
 
-## 4、软件列表
+## 4、软件树状目录
+```bash
+├─data
+├─List
+├─skin
+│  └─user
+├─tools
+│  ├─主板工具
+│  ├─其他工具
+│  │  ├─BatteryInfoView
+│  │  ├─bluescreenview
+│  │  ├─ChipGenius
+│  │  ├─DesktopOK
+│  │  ├─Dism++
+│  │  │  └─Config
+│  │  │      ├─amd64
+│  │  │      ├─arm64
+│  │  │      ├─Languages
+│  │  │      ├─Plugins
+│  │  │      │  └─FrogPlugins_Pcn7FMvReAsVWfCQBfRJCw
+│  │  │      └─x86
+│  │  ├─Everything
+│  │  ├─Geek Uninstaller
+│  │  ├─gifcam
+│  │  ├─MicroKMS神龙版
+│  │  ├─MSIAfterburnerSetup
+│  │  ├─oem7
+│  │  ├─procexp
+│  │  ├─rufus
+│  │  ├─ULTRAISO
+│  │  │  ├─DRIVERS
+│  │  │  └─LANG
+│  │  ├─ventoy
+│  │  │  ├─altexe
+│  │  │  ├─boot
+│  │  │  ├─plugin
+│  │  │  │  └─ventoy
+│  │  │  │      └─theme
+│  │  │  │          └─icons
+│  │  │  └─ventoy
+│  │  ├─WinDbg
+│  │  ├─Windows10数字权力激活
+│  │  ├─三星win7激活工具
+│  │  ├─其他win7激活工具
+│  │  ├─图拉丁KMS
+│  │  ├─天梯图
+│  │  └─游戏加加
+│  ├─内存工具
+│  │  ├─memtest
+│  │  ├─memtest64
+│  │  ├─memtestpro
+│  │  ├─Thaiphoon
+│  │  ├─tm5
+│  │  │  └─bin
+│  │  ├─内存整理
+│  │  └─魔方内存盘
+│  ├─处理器工具
+│  │  ├─CoreTemp
+│  │  │  └─Languages
+│  │  ├─CPUZ
+│  │  ├─iva
+│  │  ├─LinX
+│  │  ├─Prime95
+│  │  ├─superpi
+│  │  ├─ThrottleStop
+│  │  ├─wPrime
+│  │  └─XIANGQI
+│  ├─外设工具
+│  │  ├─AresonMouseTest
+│  │  ├─Keyboard Test Utility
+│  │  ├─MOUSERATE
+│  │  └─鼠标单机变双击测试器
+│  ├─常用工具
+│  │  └─检查更新
+│  ├─显卡工具
+│  │  ├─AMDGPUClockTool
+│  │  │  └─tools_driver
+│  │  │      └─.svn
+│  │  │          ├─prop-base
+│  │  │          ├─props
+│  │  │          ├─text-base
+│  │  │          └─tmp
+│  │  │              ├─prop-base
+│  │  │              ├─props
+│  │  │              └─text-base
+│  │  ├─AMD显卡驱动下载
+│  │  ├─DDU
+│  │  │  ├─DDU Logs
+│  │  │  └─settings
+│  │  │      ├─AMD
+│  │  │      ├─INTEL
+│  │  │      ├─Languages
+│  │  │      ├─NVIDIA
+│  │  │      └─REALTEK
+│  │  ├─GpuTest_Windows x64
+│  │  │  ├─data
+│  │  │  └─plugins
+│  │  ├─GPUZ
+│  │  ├─nvidiaInspector
+│  │  └─Nvidia显卡驱动下载
+│  ├─显示器工具
+│  │  ├─在线屏幕测试
+│  │  └─色域检测
+│  ├─烤鸡工具
+│  │  └─FurMark
+│  │      ├─screenshots
+│  │      └─sound
+│  ├─硬盘工具
+│  │  ├─ASSSDBenchmark
+│  │  │  └─en-US
+│  │  ├─ATTODISKBENCHMARK
+│  │  ├─CrystalDiskInfo
+│  │  │  └─CdiResource
+│  │  │      ├─dialog
+│  │  │      │  ├─flot
+│  │  │      │  └─image
+│  │  │      ├─language
+│  │  │      ├─opus
+│  │  │      ├─themes
+│  │  │      │  └─Shizuku
+│  │  │      └─voice
+│  │  ├─CrystalDiskMark
+│  │  │  └─CdmResource
+│  │  │      ├─DiskSpd
+│  │  │      ├─language
+│  │  │      └─Themes
+│  │  │          └─Shizuku
+│  │  ├─Defraggler
+│  │  │  └─Lang
+│  │  ├─DiskGenius
+│  │  ├─finaldata
+│  │  ├─FlashMaster
+│  │  ├─H2testw
+│  │  ├─HDTune
+│  │  ├─LLFTOOL
+│  │  ├─mydisktest
+│  │  ├─SpaceSniffer
+│  │  ├─SSD utils
+│  │  ├─SSDZ
+│  │  ├─URWTEST
+│  │  ├─windirstat
+│  │  └─魔方数据恢复
+│  │      └─config
+│  └─综合检测
+│      ├─AIDA64
+│      │  ├─Language
+│      │  └─SQL_Schema
+│      ├─hwinfo
+│      ├─HWMonitor
+│      ├─OCCT
+│      ├─RWEverything
+│      ├─speccy
+│      │  └─Lang
+│      └─图拉丁硬件检测
+│          └─data
+└─新手指引
+```
 
 ## 5、加群交流
 欢迎各位加入图吧工具箱交流群，在群内不仅可以愉快的交流各种软件、硬件知识，共同学习、进步，甚至还能交♂友。点此[一键加群](https://jq.qq.com/?_wv=1027&k=Cvyd7xt5)，进群之后请遵循群规~
