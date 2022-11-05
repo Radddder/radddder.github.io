@@ -6,7 +6,7 @@ site_author: R3默秒全 #作者名
 #[UI]
 
 theme:
-  name: material
+  name: readthedocs
   language: zh 
 
 
