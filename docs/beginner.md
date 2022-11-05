@@ -24,6 +24,26 @@
 ### （2） 创建引导U盘
 #### 方法一、官方工具全自动创建
 
+1、下载镜像生成工具：  
+Windows 10：https://www.microsoft.com/zh-cn/software-download/windows10  
+Windows 11：https://www.microsoft.com/zh-cn/software-download/windows11
+
+![image-20221105195847471](imgs/image-20221105195847471.png)
+
+2、插入U盘，打开MediaCreationToolxxxx.exe。选择创建安装介质。
+
+![image-20221105200048764](imgs/image-20221105200048764.png)
+
+3、版本选择Windows 10 / Windows 11，默认包含全版本安装文件。体系一般为x64。
+
+![image-20221105200243172](imgs/image-20221105200243172.png)
+
+4、选择创建方式。推荐选择**U盘**，一步到位。若需单独使用iso镜像，则选择**ISO文件**。
+
+![image-20221105200447557](imgs/image-20221105200447557.png)
+
+5、点击下一步（ISO方式记住保存路径，按方法二/三/四继续操作），创建完成。
+
 #### 方法二、手动下载镜像解压
 
 #### 方法三、Rufus写入U盘
