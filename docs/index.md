@@ -9,7 +9,7 @@ DIY爱好者的必备工具合
 工具箱下载：[图吧工具箱2022.11绿色版自动解压程序R2](https://download.tualatin.club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B12022.11%E7%BB%BF%E8%89%B2%E7%89%88%E8%87%AA%E5%8A%A8%E8%A7%A3%E5%8E%8B%E7%A8%8B%E5%BA%8FR2.exe)  
 工具箱下载：[图吧工具箱工具管理器](https://wwz.lanzout.com/iOgQu0exkkmf) 
 
-![image-20221105145004370](G:/XIAOCY/%E9%9B%B6%E9%9B%B6%E7%A2%8E%E7%A2%8E/Tualatin/docs%E7%AB%99%E7%82%B9/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1/radddder.github.io/docs/image-20221105145004370.png)
+![image-20221105145004370](image-20221105145004370.png)
 
 
 ## 2、程序介绍
@@ -47,4 +47,4 @@ DIY爱好者的必备工具合
 
 ## 6、捐赠通道
 
-![image-20221105145659342](G:/XIAOCY/%E9%9B%B6%E9%9B%B6%E7%A2%8E%E7%A2%8E/Tualatin/docs%E7%AB%99%E7%82%B9/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1/radddder.github.io/docs/image-20221105145659342.png)
+![image-20221105145659342](image-20221105145659342.png)
