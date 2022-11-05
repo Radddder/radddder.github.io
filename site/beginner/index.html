@@ -165,8 +165,8 @@
 <h3 id="2-u">（2） 创建引导U盘</h3>
 <h4 id="_2">方法一、官方工具全自动创建</h4>
 <p>1、下载镜像生成工具：<br />
-Windows 10：https://www.microsoft.com/zh-cn/software-download/windows10<br />
-Windows 11：https://www.microsoft.com/zh-cn/software-download/windows11</p>
+Windows 10：<a href="https://www.microsoft.com/zh-cn/software-download/windows10">https://www.microsoft.com/zh-cn/software-download/windows10</a><br />
+Windows 11：<a href="https://www.microsoft.com/zh-cn/software-download/windows11">https://www.microsoft.com/zh-cn/software-download/windows11</a></p>
 <p><img alt="image-20221105195847471" src="../imgs/image-20221105195847471.png" /></p>
 <p>2、插入U盘，打开MediaCreationToolxxxx.exe。选择创建安装介质。</p>
 <p><img alt="image-20221105200048764" src="../imgs/image-20221105200048764.png" /></p>
@@ -174,10 +174,28 @@ Windows 11：https://www.microsoft.com/zh-cn/software-download/windows11</p>
 <p><img alt="image-20221105200243172" src="../imgs/image-20221105200243172.png" /></p>
 <p>4、选择创建方式。推荐选择<strong>U盘</strong>，一步到位。若需单独使用iso镜像，则选择<strong>ISO文件</strong>。</p>
 <p><img alt="image-20221105200447557" src="../imgs/image-20221105200447557.png" /></p>
-<p>5、点击下一步（ISO方式记住保存路径，按方法二/三/四继续操作），创建完成。</p>
+<p>5、点击下一步（ISO方式记住保存路径，按方法二/三/四继续操作），等待创建完成。</p>
+<p><img alt="image-20221105201129151" src="../imgs/image-20221105201129151.png" /></p>
 <h4 id="_3">方法二、手动下载镜像解压</h4>
+<p>1、准备ISO镜像，使用上方工具创建ISO文件，或从Next,ITellYou网站下载，点击<a href="https://next.itellyou.cn/">NEXT, ITELLYOU</a>。</p>
+<p><img alt="image-20221105204359769" src="../imgs/image-20221105204359769.png" /></p>
+<p>2、下载选择商业版/business版，后续适用各种激活方式。复制ED2K或BT自行下载。</p>
+<p><img alt="image-20221105204822477" src="../imgs/image-20221105204822477.png" /></p>
+<p>3、下载镜像后解压镜像内文件至U盘根目录。U盘格式推荐为FAT32，兼容性最佳。解压完成即可引导安装。</p>
+<p><img alt="image-20221105205048187" src="../imgs/image-20221105205048187.png" /></p>
 <h4 id="rufusu">方法三、Rufus写入U盘</h4>
+<p>1、准备ISO镜像，方法如上。</p>
+<p>2、下载Rufus（图吧工具箱内置，其他工具-Rufus），<a href="https://github.com/pbatard/rufus/releases/download/v3.20/rufus-3.20.exe">点此手动下载3.20版本</a>。</p>
+<p>3、插入U盘，打开Rufus，选择镜像。<br />
+<em> 不支持EFI引导的平台分区类型选择MBR，否则保持默认。<br />
+</em> 固态U盘、移动硬盘需启用<strong>显示USB外置硬盘选项</strong>。<br />
+* 文件系统选择FAT32以保持最大兼容。   </p>
+<p><img alt="image-20221105210210126" src="../imgs/image-20221105210210126.png" /></p>
+<p>4、点击开始按钮，安装弹窗按需选择。等待镜像写入完成。</p>
+<p><img alt="image-20221105210839059" src="../imgs/image-20221105210839059.png" /></p>
 <h4 id="pe">方法四、PE类工具安装</h4>
+<p>1、下载PE，推荐<a href="https://mirrors.sdu.edu.cn/software/Windows/WePE/WePE64_V2.2.exe">WePE</a>，插入U盘创建启动盘。</p>
+<p>2、准备ISO镜像，无需解压直接拷入<strong>微PE工具箱</strong>分区。</p>
 <h3 id="3">（3）引导启动安装镜像</h3>
 <h3 id="4">（4）可选：注入驱动</h3>
               
