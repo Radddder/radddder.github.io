@@ -55,13 +55,6 @@ DIY爱好者的必备工具合。
 │  │  ├─ChipGenius
 │  │  ├─DesktopOK
 │  │  ├─Dism++
-│  │  │  └─Config
-│  │  │      ├─amd64
-│  │  │      ├─arm64
-│  │  │      ├─Languages
-│  │  │      ├─Plugins
-│  │  │      │  └─FrogPlugins_Pcn7FMvReAsVWfCQBfRJCw
-│  │  │      └─x86
 │  │  ├─Everything
 │  │  ├─Geek Uninstaller
 │  │  ├─gifcam
@@ -71,16 +64,7 @@ DIY爱好者的必备工具合。
 │  │  ├─procexp
 │  │  ├─rufus
 │  │  ├─ULTRAISO
-│  │  │  ├─DRIVERS
-│  │  │  └─LANG
 │  │  ├─ventoy
-│  │  │  ├─altexe
-│  │  │  ├─boot
-│  │  │  ├─plugin
-│  │  │  │  └─ventoy
-│  │  │  │      └─theme
-│  │  │  │          └─icons
-│  │  │  └─ventoy
 │  │  ├─WinDbg
 │  │  ├─Windows10数字权力激活
 │  │  ├─三星win7激活工具
@@ -94,12 +78,10 @@ DIY爱好者的必备工具合。
 │  │  ├─memtestpro
 │  │  ├─Thaiphoon
 │  │  ├─tm5
-│  │  │  └─bin
 │  │  ├─内存整理
 │  │  └─魔方内存盘
 │  ├─处理器工具
 │  │  ├─CoreTemp
-│  │  │  └─Languages
 │  │  ├─CPUZ
 │  │  ├─iva
 │  │  ├─LinX
@@ -116,28 +98,9 @@ DIY爱好者的必备工具合。
 │  ├─常用工具
 │  │  └─检查更新
 │  ├─显卡工具
-│  │  ├─AMDGPUClockTool
-│  │  │  └─tools_driver
-│  │  │      └─.svn
-│  │  │          ├─prop-base
-│  │  │          ├─props
-│  │  │          ├─text-base
-│  │  │          └─tmp
-│  │  │              ├─prop-base
-│  │  │              ├─props
-│  │  │              └─text-base
 │  │  ├─AMD显卡驱动下载
 │  │  ├─DDU
-│  │  │  ├─DDU Logs
-│  │  │  └─settings
-│  │  │      ├─AMD
-│  │  │      ├─INTEL
-│  │  │      ├─Languages
-│  │  │      ├─NVIDIA
-│  │  │      └─REALTEK
 │  │  ├─GpuTest_Windows x64
-│  │  │  ├─data
-│  │  │  └─plugins
 │  │  ├─GPUZ
 │  │  ├─nvidiaInspector
 │  │  └─Nvidia显卡驱动下载
@@ -146,30 +109,12 @@ DIY爱好者的必备工具合。
 │  │  └─色域检测
 │  ├─烤鸡工具
 │  │  └─FurMark
-│  │      ├─screenshots
-│  │      └─sound
 │  ├─硬盘工具
 │  │  ├─ASSSDBenchmark
-│  │  │  └─en-US
 │  │  ├─ATTODISKBENCHMARK
 │  │  ├─CrystalDiskInfo
-│  │  │  └─CdiResource
-│  │  │      ├─dialog
-│  │  │      │  ├─flot
-│  │  │      │  └─image
-│  │  │      ├─language
-│  │  │      ├─opus
-│  │  │      ├─themes
-│  │  │      │  └─Shizuku
-│  │  │      └─voice
 │  │  ├─CrystalDiskMark
-│  │  │  └─CdmResource
-│  │  │      ├─DiskSpd
-│  │  │      ├─language
-│  │  │      └─Themes
-│  │  │          └─Shizuku
 │  │  ├─Defraggler
-│  │  │  └─Lang
 │  │  ├─DiskGenius
 │  │  ├─finaldata
 │  │  ├─FlashMaster
@@ -183,19 +128,14 @@ DIY爱好者的必备工具合。
 │  │  ├─URWTEST
 │  │  ├─windirstat
 │  │  └─魔方数据恢复
-│  │      └─config
 │  └─综合检测
 │      ├─AIDA64
-│      │  ├─Language
-│      │  └─SQL_Schema
 │      ├─hwinfo
 │      ├─HWMonitor
 │      ├─OCCT
 │      ├─RWEverything
 │      ├─speccy
-│      │  └─Lang
 │      └─图拉丁硬件检测
-│          └─data
 └─新手指引
 ```
 
