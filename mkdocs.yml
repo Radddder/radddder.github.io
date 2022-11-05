@@ -1,0 +1,30 @@
+#[Info]
+site_name: 图吧工具箱指南 #网站名字
+site_url: http://docs.tualatin.club #网站地址
+site_author: R3默秒全 #作者名
+
+#[UI]
+theme:
+  name: readthedocs
+
+copyright: Copyright @ 2022 曙光工作室 # 左下角的版权声明
+
+nav:
+    - 'index.md'
+    - 'Q&A.md'
+    - 'beginner.md'
+    - 'CPU.md'
+    - 'motherboard.md'
+    - 'mem.md'
+    - 'GPU.md'
+    - 'disk.md'
+    - 'monitor.md'
+    - 'sys.md'
+    - 'device.md'
+    - 'stress.md'
+    - 'others.md'
+    - 'option.md'
+
+
+
+  
