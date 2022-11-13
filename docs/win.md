@@ -1,4 +1,4 @@
-# 新手使用指南
+# Win系统安装
 ```
 三千预算进卡吧，加钱加到九万八。十核E7装上去，四路泰坦抱回家。  
 4K屏幕组三屏，万元水冷温度压。固态硬盘装三块，硬盘内存使劲加。  
@@ -14,15 +14,13 @@
 ——大人，时代变了，好好装机！本教程面向Windows平台。  
 ```
 
-## 1、Windows 系统安装
-
-### （1）准备工作
+## 1、准备工作
 （A）一个U盘（≥8GB），存放安装镜像  
 （B）一个联网、可以读写USB的电脑或手机  
 （C）一个准备安装系统的PC 
 
-### （2） 创建引导U盘
-#### 方法一、官方工具全自动创建
+## 2、 创建引导U盘
+### 方法一、官方工具全自动创建
 
 1、下载镜像生成工具：  
 Windows 10：[https://www.microsoft.com/zh-cn/software-download/windows10](https://www.microsoft.com/zh-cn/software-download/windows10)  
@@ -46,7 +44,7 @@ Windows 11：[https://www.microsoft.com/zh-cn/software-download/windows11](https
 
 ![image-20221105201129151](imgs/image-20221105201129151.png)
 
-#### 方法二、手动下载镜像解压
+### 方法二、手动下载镜像解压
 
 1、准备ISO镜像，使用上方工具创建ISO文件，或从Next,ITellYou网站下载，点击[NEXT, ITELLYOU](https://next.itellyou.cn/)。
 
@@ -60,7 +58,7 @@ Windows 11：[https://www.microsoft.com/zh-cn/software-download/windows11](https
 
 ![image-20221105205048187](imgs/image-20221105205048187.png)
 
-#### 方法三、Rufus写入U盘
+### 方法三、Rufus写入U盘
 
 1、准备ISO镜像，方法如上。
 
@@ -77,15 +75,15 @@ Windows 11：[https://www.microsoft.com/zh-cn/software-download/windows11](https
 
 ![image-20221105210839059](imgs/image-20221105210839059.png)
 
-#### 方法四、PE类工具安装
+### 方法四、PE类工具安装
 
 1、下载PE，推荐[WePE](https://mirrors.sdu.edu.cn/software/Windows/WePE/WePE64_V2.2.exe)，插入U盘创建启动盘。
 
 2、准备ISO镜像，无需解压直接拷入**微PE工具箱**分区。
 
-### （3）引导启动安装镜像
+## 3、引导启动安装镜像
 
-### （4）可选：注入驱动
+## 4、可选：注入驱动
 
 
 
