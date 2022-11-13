@@ -21,11 +21,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://docs.tualatin.club/beginner/</loc>
-         <lastmod>2022-11-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>http://docs.tualatin.club/device/</loc>
          <lastmod>2022-11-13</lastmod>
          <changefreq>daily</changefreq>
@@ -51,11 +46,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://docs.tualatin.club/option/</loc>
-         <lastmod>2022-11-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>http://docs.tualatin.club/others/</loc>
          <lastmod>2022-11-13</lastmod>
          <changefreq>daily</changefreq>
@@ -67,6 +57,11 @@
     </url>
     <url>
          <loc>http://docs.tualatin.club/sys/</loc>
+         <lastmod>2022-11-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://docs.tualatin.club/win/</loc>
          <lastmod>2022-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
