@@ -84,11 +84,15 @@ Windows 11：[https://www.microsoft.com/zh-cn/software-download/windows11](https
 ## 3、引导启动安装镜像
 ### 一、可选：主板BIOS启动类型设置
 
+![image-20221115224002981](imgs/image-20221115224002981.png)
 
+![image-20221115224038312](imgs/image-20221115224038312.png)
+
+![image-20221115224052536](imgs/image-20221115224052536.png)
 
 ### 二、选择U盘启动
 
-
+![image-20221115223802909](imgs/image-20221115223802909.png)
 
 ### 三、选择目标硬盘并安装
 
