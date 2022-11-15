@@ -30,5 +30,7 @@ nav:
     - 'Q&A.md'
 
 plugins:
-    search: {}
+  - search:
+      separator: '[\s\u200b\-]'
+
   
