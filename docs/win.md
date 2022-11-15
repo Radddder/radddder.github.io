@@ -1,4 +1,5 @@
-# Ⅱ、Win系统安装
+Ⅱ、Win系统安装
+
 ```
 三千预算进卡吧，加钱加到九万八。十核E7装上去，四路泰坦抱回家。  
 4K屏幕组三屏，万元水冷温度压。固态硬盘装三块，硬盘内存使劲加。  
@@ -84,13 +85,27 @@ Windows 11：[https://www.microsoft.com/zh-cn/software-download/windows11](https
 ## 3、引导启动安装镜像
 ### 一、可选：主板BIOS启动类型设置
 
+新平台默认UEFI引导，CSM兼容关闭，无特殊需求保持默认即可。
+Legacy——Win10 MBR磁盘分区格式、不兼容EFI启动的老显卡需要该功能，在CSM Support中开启。
+UEFI——11年后主板普遍支持UEFI启动，若无Legacy设备，直接选择UEFI Only即可。
+
+1、开机**狂按**DEL进入BIOS，特殊主板详见启动LOGO下方标注、主板说明书或自行百度
+
 ![image-20221115224002981](imgs/image-20221115224002981.png)
+
+2、BIOS中选择Boot菜单（部分主板需先进入高级模式，见上图红框），选择CSM
 
 ![image-20221115224038312](imgs/image-20221115224038312.png)
 
+3、CSM选项中选择开启或关闭，部分主板为CSM supported / legacy only / uefi only，混合模式兼容性最佳。
+
 ![image-20221115224052536](imgs/image-20221115224052536.png)
 
+4、保存设置并重启，默认快捷键为F10。
+
 ### 二、选择U盘启动
+
+
 
 ![image-20221115223802909](imgs/image-20221115223802909.png)
 
