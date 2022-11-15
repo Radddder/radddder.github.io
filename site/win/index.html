@@ -17,7 +17,7 @@
     
     
       
-        <title>Ⅱ、Win系统安装 - 图拉丁入门手册</title>
+        <title>Win - 图拉丁入门手册</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#iiwin" class="md-skip">
+        <a href="#1" class="md-skip">
           跳转至
         </a>
       
@@ -99,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Ⅱ、Win系统安装
+              Win
             
           </span>
         </div>
@@ -206,16 +206,14 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Ⅱ、Win系统安装
+          Win
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Ⅱ、Win系统安装
+        Win
       </a>
       
         
@@ -223,8 +221,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="目录">
   
   
-  
-    
   
   
     <label class="md-nav__title" for="__toc">
@@ -512,8 +508,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -625,7 +619,9 @@
                   
 
 
-<h1 id="iiwin">Ⅱ、Win系统安装</h1>
+  <h1>Win</h1>
+
+<p>Ⅱ、Win系统安装</p>
 <pre><code>三千预算进卡吧，加钱加到九万八。十核E7装上去，四路泰坦抱回家。  
 4K屏幕组三屏，万元水冷温度压。固态硬盘装三块，硬盘内存使劲加。  
 键鼠必花几千块，耳机手柄八千八。还有机箱一万一，红星炸弹啪啪啪。  
@@ -679,9 +675,48 @@ Windows 11：<a href="https://www.microsoft.com/zh-cn/software-download/windows1
 <p>2、准备ISO镜像，无需解压直接拷入<strong>微PE工具箱</strong>分区。</p>
 <h2 id="3">3、引导启动安装镜像</h2>
 <h3 id="bios">一、可选：主板BIOS启动类型设置</h3>
+<p>新平台默认UEFI引导，CSM兼容关闭，无特殊需求保持默认即可。
+Legacy——Win10 MBR磁盘分区格式、不兼容EFI启动的老显卡需要该功能，在CSM Support中开启。
+UEFI——11年后主板普遍支持UEFI启动，若无Legacy设备，直接选择UEFI Only即可。</p>
+<p>1、开机<strong>狂按</strong>DEL进入BIOS，特殊主板详见启动LOGO下方标注、主板说明书或自行百度</p>
+<p><img alt="image-20221115224002981" src="../imgs/image-20221115224002981.png" /></p>
+<p>2、BIOS中选择Boot菜单（部分主板需先进入高级模式，见上图红框），选择CSM</p>
+<p><img alt="image-20221115224038312" src="../imgs/image-20221115224038312.png" /></p>
+<p>3、CSM选项中选择开启或关闭，部分主板为CSM supported / legacy only / uefi only，混合模式兼容性最佳。</p>
+<p><img alt="image-20221115224052536" src="../imgs/image-20221115224052536.png" /></p>
+<p>4、保存设置并重启，默认快捷键为F10。</p>
 <h3 id="u">二、选择U盘启动</h3>
+<p>按下开机键后<strong>狂按</strong>快捷键进入Boot菜单，华硕F8，微星F11，技嘉F12，其他主板详见启动LOGO下方标注、主板说明书或自行百度。根据需要选择U盘引导选项，默认选择<strong>UEFI：XXXX</strong>项，有特殊需求或老平台选择<strong>U盘名称</strong>项。回车后从U盘启动。PE引导需手动打开Windows安装镜像。</p>
+<p><img alt="image-20221115223802909" src="../imgs/image-20221115223802909.png" /></p>
 <h3 id="_3">三、选择目标硬盘并安装</h3>
+<p>1、进入安装程序，操作系统推荐专业版，安装类型除升级外均选择第二项：<strong>仅安装Windows</strong>。</p>
+<p><img alt="image-20221115234857391" src="../imgs/image-20221115234857391.png" /></p>
+<p><img alt="image-20221115234924229" src="../imgs/image-20221115234924229.png" /></p>
+<p><img alt="image-20221115235058307" src="../imgs/image-20221115235058307.png" /></p>
+<p>2、选择目标硬盘，点击下一步开始安装。完成后拔出U盘重启。
+11/12代酷睿不显示硬盘问题的详见下文注入驱动部分。</p>
+<p><img alt="image-20221115235207043" src="../imgs/image-20221115235207043.png" /></p>
+<p><img alt="image-20221115235307263" src="../imgs/image-20221115235307263.png" /></p>
+<p>3、系统初始化，按需选择，完成安装。
+MT7921等无线网卡不显示Wifi连接问题的详见下文注入驱动部分。</p>
+<p><img alt="image-20221115235403646" src="../imgs/image-20221115235403646.png" /></p>
+<p><img alt="image-20221115235427037" src="../imgs/image-20221115235427037.png" /></p>
 <h2 id="4">4、可选：注入驱动</h2>
+<ul>
+<li>
+<p>由于11/12代酷睿使用了新的VMD磁盘管理驱动，Windows 10 22H1之前的版本安装无法显示硬盘。</p>
+</li>
+<li>
+<p>由于MT7921网卡未提供兼容驱动，官网Windows镜像无法连接WIFI。</p>
+</li>
+<li>
+<p>特殊硬件无兼容驱动，官网Windows无法正确识别。</p>
+</li>
+</ul>
+<p>上述问题可以在BIOS中进行设置规避，也可在Windows安装过程中手动注入驱动。以VMD问题为例。</p>
+<p>1、Intel官网或主板官网下载IRST_VMD驱动，<a href="https://www.intel.cn/content/www/cn/zh/download/15667/intel-rapid-storage-technology-intel-rst-user-interface-and-driver.html?wapkw=rapid%20storage%20technology">官网链接</a>，注意下载zip压缩包版本。</p>
+<p>2、解压，在安装程序中加载驱动程序，即可识别硬盘</p>
+<p><img alt="image-20221116000344067" src="../imgs/image-20221116000344067.png" /></p>
 
 
 
