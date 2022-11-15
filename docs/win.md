@@ -141,7 +141,8 @@ MT7921等无线网卡不显示Wifi连接问题的详见下文注入驱动部分�
 
 * 特殊硬件无兼容驱动，官网Windows无法正确识别。
 
-上述问题可以在BIOS中进行设置规避，也可在Windows安装过程中手动注入驱动。以VMD问题为例。
+上述问题可以在BIOS中进行设置规避，也可在Windows安装过程中手动注入驱动。
+下方以VMD问题为例进行操作，其他问题类似。
 
 1、Intel官网或主板官网下载IRST_VMD驱动，[官网链接](https://www.intel.cn/content/www/cn/zh/download/15667/intel-rapid-storage-technology-intel-rst-user-interface-and-driver.html?wapkw=rapid%20storage%20technology)，注意下载zip压缩包版本。
 
