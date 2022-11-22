@@ -21,7 +21,9 @@
 
 工具——系统稳定性测试——测试项目——Start
 
-轻薄本选择Stress CPU，渲染本/全能本选择CPU+GPU，台式机选择FPU或FPU+GPU。推荐烤鸡时长，15-30分钟。![image-20221122181244532](imgs/image-20221122181244532.png)
+轻薄本选择Stress CPU，渲染本/全能本选择双烤CPU+GPU或单烤FPU，台式机选择FPU或FPU+GPU。推荐烤鸡时长，15-30分钟。<font color="red">**CPU Throttling红色标识**</font>为过热降频，即PC散热能力有限。
+
+![image-20221122181244532](imgs/image-20221122181244532.png)
 
 ![image-20221122185524367](imgs/image-20221122185524367.png)
 
