@@ -616,20 +616,43 @@
 <h1 id="iii">Ⅲ、综合工具</h1>
 <h2 id="1aida64">1、AIDA64</h2>
 <h3 id="1">（1）温度与功耗信息</h3>
-<p>计算机——传感器——温度/功耗</p>
+<ul>
+<li>计算机——传感器——温度/功耗</li>
+</ul>
 <p><img alt="image-20221122175415270" src="../imgs/image-20221122175415270.png" /></p>
 <h3 id="2">（2）内存与缓存测试</h3>
-<p>工具——内存与缓存测试——Start Benchmark</p>
+<ul>
+<li>工具——内存与缓存测试——Start Benchmark</li>
+</ul>
 <p>用于测试内存延迟、L3缓存写入减半故障、判断内存通道数。</p>
 <p><img alt="image-20221122180054583" src="../imgs/image-20221122180054583.png" /></p>
 <p><img alt="image-20221122180951166" src="../imgs/image-20221122180951166.png" /></p>
 <h3 id="3">（3）压力测试/烤鸡</h3>
-<p>工具——系统稳定性测试——测试项目——Start</p>
+<ul>
+<li>工具——系统稳定性测试——测试项目——Start</li>
+</ul>
 <p>轻薄本选择Stress CPU，渲染本/全能本选择双烤CPU+GPU或单烤FPU，台式机选择FPU或FPU+GPU。推荐烤鸡时长，15-30分钟。<font color="red"><strong>CPU Throttling红色标识</strong></font>为过热降频，即PC散热能力有限。</p>
 <p><img alt="image-20221122181244532" src="../imgs/image-20221122181244532.png" /></p>
 <p><img alt="image-20221122185524367" src="../imgs/image-20221122185524367.png" /></p>
 <h3 id="4osd">（4）桌面OSD显示</h3>
+<ul>
+<li>文件——设置——硬件监视工具——OSD——使用屏显面板显示</li>
+</ul>
+<p><img alt="image-20221122212128359" src="../imgs/image-20221122212128359.png" /></p>
+<p>在左侧目录中选择屏显项目，右侧选择需要显示的项目，点击右下角应用即可显示</p>
+<p><img alt="image-20221124205735923" src="../imgs/image-20221124205735923.png" /></p>
 <h3 id="5remotesensor">（5）RemoteSensor副屏监控</h3>
+<ul>
+<li>文件——设置——硬件监视工具——LCD——RemoteSensor——分辨率——启用RemoteSensor LCD支持——背景色——需要全屏的选中Maximize on double-click——应用</li>
+</ul>
+<p><img alt="image-20221124213227618" src="../imgs/image-20221124213227618.png" /></p>
+<p>点击左侧LCD项目进入页面编辑。右上角可导入已保存的方案，右中控制各项目的移动，右下为项目新建/编辑/删除和图层顺序调整按钮。伸手党可以去AIDA64论坛上下载，B站也有大量教程。因时间关系本站不做修改和适配。监控屏文本缩放建议调为100%。</p>
+<p><img alt="image-20221124211450504" src="../imgs/image-20221124211450504.png" /></p>
+<p>在浏览器中输入【127.0.0.1:端口号】（端口默认80无需输入）即可看到监控页面，在手机/pad等设备浏览器内输入【主机IP:端口号】也可以。在<strong>Wallpaper Engine</strong>中引用【http://主机IP:端口号】并设为直播模式可作为桌面显示。长期使用建议在设置中打开AIDA64的开启启动。</p>
+<p><img alt="image-20221124233729800" src="../imgs/image-20221124233729800.png" /></p>
+<p><img alt="image-20221124234438403" src="../imgs/image-20221124234438403.png" /></p>
+<p><img alt="image-20221124233919621" src="../imgs/image-20221124233919621.png" /></p>
+<p><img alt="image-20221124234321092" src="../imgs/image-20221124234321092.png" /></p>
 <h2 id="2hwmonitor">2、HWMonitor</h2>
 <h2 id="3hwinfo">3、HWiNFO</h2>
 <h2 id="4speccy">4、Speccy</h2>
